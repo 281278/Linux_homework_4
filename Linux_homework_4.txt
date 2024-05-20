@@ -1,0 +1,1 @@
+/opt/250324_evening/tatjana/myfirstbashscript.sh
