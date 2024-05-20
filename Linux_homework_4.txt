@@ -1,1 +1,14 @@
 /opt/250324_evening/tatjana/myfirstbashscript.sh
+
+
+#!/bin/bash
+echo ----------------------
+user="Tatjana Krüger"
+date
+echo "hello" $user!
+echo "fullname:" $0
+echo "total:"
+ps -ef | tail -n +2 | wc -l
+echo -----------------------------
+SCRIPTPATH=$(cd `dirname $0` && pwd)
+echo "dirname:" $SCRIPTPATH
